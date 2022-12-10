@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="store.xsd">
+    <products>
+        <product productid="001">
+            <productName>KINGSTON USB</productName>
+            <price>10</price>
+            <stockVolume>1000</stockVolume>
+        </product>
+        <product productid="002">
+            <productName>XP USB</productName>
+            <price>7</price>
+            <stockVolume>2000</stockVolume>
+        </product>
+        <product productid="003">
+            <productName>AMD USB</productName>
+            <price>17</price>
+            <stockVolume>500</stockVolume>
+        </product>
+    </products>
+</store>
