@@ -1,0 +1,1 @@
+# **Example for Observer pattern implemented in Java**
