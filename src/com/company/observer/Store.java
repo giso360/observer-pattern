@@ -1,5 +1,6 @@
 package com.company.observer;
 
+import com.company.observer.events.EOperation;
 import com.company.observer.model.Product;
 
 import java.io.IOException;
@@ -14,12 +15,13 @@ public class Store {
     private final EventManager eventManager;
 
     public Store(List<Product> products) {
-        List<String> operationsToEventManager = new ArrayList<>();
-        EnumSet<EOperation> eOperations = EnumSet.allOf(EOperation.class);
-        for (EOperation operation: eOperations){
-            operationsToEventManager.add(operation.getOperationName());
-        }
-        this.eventManager = new EventManager(operationsToEventManager.toArray(new String[0]));
+//        List<String> operationsToEventManager = new ArrayList<>();
+//        EnumSet<EOperation> eOperations = EnumSet.allOf(EOperation.class);
+//        for (EOperation operation: eOperations){
+//            operationsToEventManager.add(operation.getOperationName());
+//        }
+//        this.eventManager = new EventManager(operationsToEventManager.toArray(new String[0]));
+        this.eventManager = new EventManager();
         this.products = products;
     }
 

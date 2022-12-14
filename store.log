@@ -1,0 +1,51 @@
+[15.12.2022 @ 01:12:50.917] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 12}
+[15.12.2022 @ 01:12:50.948] ->   INFO   {com.company.observer.listeners.StockVolumeListener:833 - EVENT TYPE: CHANGE STOCK VALUE - NEW STOCK VOLUME:  999}
+[15.12.2022 @ 01:12:52.888] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 14}
+[15.12.2022 @ 01:12:52.888] ->   INFO   {com.company.observer.listeners.StockVolumeListener:833 - EVENT TYPE: CHANGE STOCK VALUE - NEW STOCK VOLUME:  998}
+[15.12.2022 @ 01:12:54.888] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 10}
+[15.12.2022 @ 01:12:56.890] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 11}
+[15.12.2022 @ 01:12:58.877] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 11}
+[15.12.2022 @ 01:13:00.882] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 19}
+[15.12.2022 @ 01:13:02.894] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 16}
+[15.12.2022 @ 01:13:04.887] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 18}
+[15.12.2022 @ 01:13:06.887] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 21}
+[15.12.2022 @ 01:13:06.887] ->   INFO   {com.company.observer.listeners.StockVolumeListener:833 - EVENT TYPE: CHANGE STOCK VALUE - NEW STOCK VOLUME:  997}
+[15.12.2022 @ 01:13:08.888] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 19}
+[15.12.2022 @ 01:13:10.877] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 16}
+[15.12.2022 @ 01:13:12.897] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 10}
+[15.12.2022 @ 01:13:14.877] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 18}
+[15.12.2022 @ 01:13:16.878] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 19}
+[15.12.2022 @ 01:13:18.878] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 21}
+[15.12.2022 @ 01:13:18.878] ->   INFO   {com.company.observer.listeners.StockVolumeListener:833 - EVENT TYPE: CHANGE STOCK VALUE - NEW STOCK VOLUME:  996}
+[15.12.2022 @ 01:13:20.881] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 18}
+[15.12.2022 @ 01:13:22.883] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 11}
+[15.12.2022 @ 01:13:24.887] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 15}
+[15.12.2022 @ 01:13:24.887] ->   INFO   {com.company.observer.listeners.StockVolumeListener:833 - EVENT TYPE: CHANGE STOCK VALUE - NEW STOCK VOLUME:  995}
+[15.12.2022 @ 01:13:26.889] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 21}
+[15.12.2022 @ 01:13:28.891] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 14}
+[15.12.2022 @ 01:13:30.891] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 15}
+[15.12.2022 @ 01:13:30.891] ->   INFO   {com.company.observer.listeners.StockVolumeListener:833 - EVENT TYPE: CHANGE STOCK VALUE - NEW STOCK VOLUME:  994}
+[15.12.2022 @ 01:13:32.892] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 11}
+[15.12.2022 @ 01:13:34.877] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 20}
+[15.12.2022 @ 01:13:36.881] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 11}
+[15.12.2022 @ 01:13:36.882] ->   INFO   {com.company.observer.listeners.StockVolumeListener:833 - EVENT TYPE: CHANGE STOCK VALUE - NEW STOCK VOLUME:  993}
+[15.12.2022 @ 01:13:38.885] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 10}
+[15.12.2022 @ 01:13:38.885] ->   INFO   {com.company.observer.listeners.StockVolumeListener:833 - EVENT TYPE: CHANGE STOCK VALUE - NEW STOCK VOLUME:  992}
+[15.12.2022 @ 01:13:40.885] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 19}
+[15.12.2022 @ 01:13:40.886] ->   INFO   {com.company.observer.listeners.StockVolumeListener:833 - EVENT TYPE: CHANGE STOCK VALUE - NEW STOCK VOLUME:  991}
+[15.12.2022 @ 01:13:42.881] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 16}
+[15.12.2022 @ 01:13:44.878] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 12}
+[15.12.2022 @ 01:13:46.891] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 15}
+[15.12.2022 @ 01:13:48.888] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 16}
+[15.12.2022 @ 01:13:50.885] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 19}
+[15.12.2022 @ 01:13:50.886] ->   INFO   {com.company.observer.listeners.StockVolumeListener:833 - EVENT TYPE: CHANGE STOCK VALUE - NEW STOCK VOLUME:  990}
+[15.12.2022 @ 01:13:52.891] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 12}
+[15.12.2022 @ 01:13:52.897] ->   INFO   {com.company.observer.listeners.StockVolumeListener:833 - EVENT TYPE: CHANGE STOCK VALUE - NEW STOCK VOLUME:  989}
+[15.12.2022 @ 01:13:54.877] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 19}
+[15.12.2022 @ 01:13:54.877] ->   INFO   {com.company.observer.listeners.StockVolumeListener:833 - EVENT TYPE: CHANGE STOCK VALUE - NEW STOCK VOLUME:  988}
+[15.12.2022 @ 01:13:56.883] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 19}
+[15.12.2022 @ 01:13:58.885] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 15}
+[15.12.2022 @ 01:14:00.886] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 16}
+[15.12.2022 @ 01:14:00.886] ->   INFO   {com.company.observer.listeners.StockVolumeListener:833 - EVENT TYPE: CHANGE STOCK VALUE - NEW STOCK VOLUME:  987}
+[15.12.2022 @ 01:14:02.879] ->   INFO   {com.company.observer.listeners.PriceListener:833 - EVENT TYPE: CHANGE PRICE - NEW PRICE: 12}
+[15.12.2022 @ 01:14:02.879] ->   INFO   {com.company.observer.listeners.StockVolumeListener:833 - EVENT TYPE: CHANGE STOCK VALUE - NEW STOCK VOLUME:  986}

@@ -1,6 +1,6 @@
 package com.company.observer.events;
 
-public class StockChangeEvent implements BusinessEvent{
+public class StockChangeEvent extends BusinessEvent{
 
     private String productName;
 
@@ -10,7 +10,8 @@ public class StockChangeEvent implements BusinessEvent{
 
     private int stockVolumeDifference;
 
-    public StockChangeEvent(String productName, int oldStockVolume, int newStockVolume) {
+    public StockChangeEvent(EOperation eOperation, String productName, int oldStockVolume, int newStockVolume) {
+        super(eOperation);
         this.productName = productName;
         this.oldStockVolume = oldStockVolume;
         this.newStockVolume = newStockVolume;

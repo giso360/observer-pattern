@@ -1,6 +1,8 @@
 package com.company.observer.events;
 
-public class PriceChangeEvent implements BusinessEvent{
+public class PriceChangeEvent extends BusinessEvent {
+
+    private final EOperation PRICE_CHANGE_OPERATION = EOperation.CHANGE_PRICE;
 
     private String productName;
 
@@ -10,7 +12,8 @@ public class PriceChangeEvent implements BusinessEvent{
 
     private int priceDifference;
 
-    public PriceChangeEvent(String productName, int oldPrice, int newPrice) {
+    public PriceChangeEvent(EOperation eOperation, String productName, int oldPrice, int newPrice) {
+        super(eOperation);
         this.productName = productName;
         this.oldPrice = oldPrice;
         this.newPrice = newPrice;

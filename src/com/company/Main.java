@@ -18,9 +18,9 @@ public class Main {
     public static void main(String[] args) throws IOException, ParserConfigurationException, SAXException {
 
         StoreService storeService = new StoreService();
-        StoreConfig storeConfig = new StoreConfig();
-        List<Product> productList = storeConfig.getProducts();
-        productList.forEach(product -> System.out.println(product.toString()));
+//        StoreConfig storeConfig = new StoreConfig();
+//        List<Product> productList = storeConfig.getProducts();
+//        productList.forEach(product -> System.out.println(product.toString()));
     }
 
 }

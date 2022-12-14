@@ -13,8 +13,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StoreConfig {
-
     private static final String PROJECT_ROOT_FOLDER = System.getProperty("user.dir");
+
 
     private static final String PATH_SEPARATOR = "\\";
 

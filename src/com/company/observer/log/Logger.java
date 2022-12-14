@@ -18,7 +18,7 @@ public class Logger {
         return new Logger(clazz);
     }
 
-    public static String getEventTime() {
+    private static String getEventTime() {
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd.MM.yyyy @ HH:mm:ss.SSS");
         return  "[" + LocalDateTime.now().format(dateTimeFormatter) + "] ->";
     }
@@ -27,17 +27,17 @@ public class Logger {
         return clazz.getCanonicalName();
     }
 
-    public String getLineNumber() {
+    private String getLineNumber() {
         StackTraceElement[] stackTraceElements = new Throwable().getStackTrace();
         int firstCallerIndex = stackTraceElements.length;
         return new Throwable().getStackTrace()[firstCallerIndex - 1].getLineNumber() + "";
     }
 
     public synchronized void INFO (String message) throws IOException {
-        System.out.println(getEventTime() + "   " + ELogLevel.INFO.getAbbr() + "   {" + getClazz() + ":" +
-                getLineNumber() + " - " + message + "}");
-        LOG_FILE_HANDLER.getBufferedWriter().write(getEventTime() + "   " + ELogLevel.INFO.getAbbr() + "   {" + getClazz() + ":" +
-                getLineNumber() + " - " + message + "}\n");
+        String msg = getEventTime() + "   " + ELogLevel.INFO.getAbbr() + "   {" + getClazz() + ":" +
+                getLineNumber() + " - " + message + "}";
+        System.out.println(msg);
+        LOG_FILE_HANDLER.getBufferedWriter().write(msg + "\n");
     }
 
     public synchronized void WARN (String message) {

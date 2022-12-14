@@ -1,4 +1,4 @@
-package com.company.observer;
+package com.company.observer.events;
 
 import java.util.Arrays;
 import java.util.Optional;
